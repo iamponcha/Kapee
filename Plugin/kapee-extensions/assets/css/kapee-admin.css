@@ -1,0 +1,53 @@
+/* CSS */
+
+/* Visual Composer CSS*/
+.wpb_el_type_kapee_title {
+	font-size: 14px;
+	background: #e6e6e6;
+	color: #6c6c6c;
+	margin-bottom: 0;
+	margin-top: 10px;
+}
+.kapee-image-select {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-left: -5px;
+	margin-right: -5px;
+}
+
+.kapee-image-select li {
+	-ms-flex-preferred-size: 140px;
+	flex-basis: 140px;
+	border: 2px solid;
+	border-color: #d9d9d9;
+	padding: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+.kapee-image-select img {
+	width: 100%;
+	margin-bottom: 5px;
+}
+.kapee-image-select li.selected {
+	border: 2px solid;
+	border-color: #131313;
+}
+
+.kapee-image-select h4 {
+	margin: 0;
+	font-size: 12px;
+	line-height: 1.4;
+	color: #333333;
+}
+
+/*
+ * Redux Framwork
+ */
+.redux-container .ui-icon{
+	display:none !important;
+}
